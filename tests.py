@@ -316,7 +316,7 @@ class TestCases(unittest.TestCase):
         result = state_test(base_host, default_port)
         self.assertEqual(result, {'statusCode': 0, 'state': "OK"})
 
-#Запуск тестов с записью результата в файл
+#Запуск тестов
 if __name__ == "__main__":
         unittest.main()
 
